@@ -1,1 +1,1 @@
-# node_cropper_reverso - Gerramenta para refazer imagens cropadas do instaarts.
+# node_cropper_reverso - Ferramenta para refazer imagens cropadas do instaarts.
