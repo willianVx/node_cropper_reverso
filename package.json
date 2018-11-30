@@ -1,0 +1,21 @@
+{
+  "name": "node_cropper_reverso",
+  "version": "1.0.0",
+  "description": "Serviço para cortar a imagem de acordo com as cordenadas do cliente",
+  "main": "app.js",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.16.4",
+    "woocommerce-api": "^1.4.2",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "123"
+  ],
+  "author": "Willian de Oliveira",
+  "license": "ISC"
+}
