@@ -8,6 +8,9 @@ console.log('Server running at http://arteref.com');
 */
 var app = require ('./config/server');
 
-app.listen(3000, function(){
-    console.log('Servidor online!');
+var port = process.env.PORT || 8080;
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || "127.0.0.1";
+
+app.listen(port, server_ip_address, function(){
+    console.log('Servidor online! ' + port + ", IP " + server_ip_address);
 })
