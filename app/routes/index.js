@@ -7,10 +7,16 @@ module.exports = function(application){
         res.send('<h1>Você não pode acessar essa página diretamente!<h1/>');
     })
 
+    application.get('/node_teste',function(req, res){
+        res.send('<h1>Olá, essa mensagem foi gerada via node js!!<h1/>');
+    })
+
+    /*
     application.get('/:img_url',function(req, res){
         let img = req.params.img_url;
         res.send(img);
     })
+    */
 
     //captura um pedido especifico a partir do número do ID
     application.post('/orders', function (req, res) {
