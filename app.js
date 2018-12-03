@@ -8,6 +8,6 @@ console.log('Server running at http://arteref.com');
 */
 var app = require ('./config/server');
 
-app.listen(8080, function(){
+app.listen(3000, function(){
     console.log('Servidor online!');
 })
