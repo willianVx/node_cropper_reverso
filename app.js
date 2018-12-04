@@ -1,10 +1,11 @@
 
 var http = require('http');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+var server = http.createServer(function (req, res) {
+  //res.writeHead(200, {'Content-Type': 'text/plain'});
   res.send('Hello World!');
-}).listen(80, '67.222.18.224');
+});
+server.listen(80, '67.222.18.224');
 console.log('Server running at http://arteref.com');
 
 
