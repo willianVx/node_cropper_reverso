@@ -16,6 +16,6 @@ var port = 3010;
 
 var server_ip_address = "67.222.18.223";
 
-app.listen(port, function(){  
+app.listen(port, '67.222.18.224', function(){  
     console.log('Servidor online! ' + port);
 })
