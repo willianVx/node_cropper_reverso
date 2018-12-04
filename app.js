@@ -14,7 +14,7 @@ var app = require ('./config/server');
 
 var port = 80;
 
-var server_ip_address = "67.222.18.223";
+var server_ip_address = "67.222.18.224";
 
 app.listen(port, '67.222.18.224', function(){  
     console.log('Servidor online! ' + port);
