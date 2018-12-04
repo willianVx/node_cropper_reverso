@@ -12,7 +12,7 @@ var app = require ('./config/server');
 //var port = process.env.PORT || 8080;
 //app.set(process.env.PORT || 8080);
 
-var port = 3010;
+var port = 80;
 
 var server_ip_address = "67.222.18.223";
 
